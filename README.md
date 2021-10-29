@@ -8,6 +8,7 @@ Program Utama Database SilVue OI Len Industri 2021 - 2022
  - ADA Utility v 2.4.1 https://github.com/stcarrez/ada-util
  - Operating System Debian v 10 https://www.debian.org/
  - MYSQL Mariadb v 10 https://mariadb.org/
+ - Mariadb Dev Library sudo apt install libmariadb-client-lgpl-dev-compat
  - Navicat https://drive.google.com/file/d/1T9Zi_pu0MGiGS3Q1pD8UEo1hxNdDBGTV/view?usp=sharing
  - Sybase Power Designer PowerDesigner v 16.6.6.5721 https://drive.google.com/drive/folders/1aQmO2cyvo_-uFc4j94YHdyMEomymqsBZ?usp=sharing
 
