@@ -10,6 +10,9 @@ Program Utama Database SilVue OI Len Industri 2021 - 2022
  - MYSQL Mariadb v 10 https://mariadb.org/
  - Sybase Power Designer PowerDesigner v 16.6.6.5721 https://www.sap.com/sea/products/powerdesigner-data-modeling-tools.html
 
+# Documentation List 
+ - ADA Ado https://ada-ado.readthedocs.io/en/latest/
+
 # List File
  - Database Model powered by powerdesigner
  - Database Raw Query generated from powerdesigner
