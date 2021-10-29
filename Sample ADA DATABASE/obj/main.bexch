@@ -1,0 +1,60 @@
+[GENERATED OBJECT FILE]
+b__main.o
+[PROJECT FILES]
+/home/scada/Downloads/sample project database/sampledb.gpr
+20211027122556 4a3bf598a8cb55521d4ca2fe62a00a3d
+/home/scada/opt/GNAT/2020/share/gpr/ado_sqlite.gpr
+20211027103837 deb6ec45abe28230e0885f40a6b29fd9
+/home/scada/opt/GNAT/2020/share/gpr/ado_mysql.gpr
+20211027103837 0d69c9729a39e18c4b766afbbb2a8314
+/home/scada/opt/GNAT/2020/share/gpr/xmlada_sax.gpr
+20200819105115 79818fd05e9bf1251c55a472b28eb26f
+/home/scada/opt/GNAT/2020/share/gpr/xmlada_unicode.gpr
+20200819105116 40649cd526e77017c3e80040fdd16bc9
+/home/scada/opt/GNAT/2020/share/gpr/xmlada_input.gpr
+20200819105116 044c9ee457aa705669f6fadfb72dd84b
+/home/scada/opt/GNAT/2020/share/gpr/utilada_xml.gpr
+20211027104156 36bf1845f7b45cede7ea85ca1254c028
+/home/scada/opt/GNAT/2020/share/gpr/utilada_base.gpr
+20211027104156 88947b24b7d539cadb2f88797f0ef1f2
+/home/scada/opt/GNAT/2020/share/gpr/utilada_core.gpr
+20211027104156 6fd9842f3c6416afa3fef4426e84f4d2
+/home/scada/opt/GNAT/2020/share/gpr/utilada_sys.gpr
+20211027104156 9e1dc8d2640e3cae0ed6d39682b5eb81
+/home/scada/opt/GNAT/2020/share/gpr/ado.gpr
+20211027103837 906289ac56709987c5a5e9941402da79
+/home/scada/opt/GNAT/2020/share/gpr/ado_all.gpr
+20211027103837 daea139748ebe4d5739a968fc61bb41b
+[BOUND OBJECT FILES]
+/home/scada/Downloads/sample project database/obj/dbconfiguration.o
+/home/scada/Downloads/sample project database/obj/rendudancysetting.o
+/home/scada/Downloads/sample project database/obj/main.o
+[GENERATED SOURCE FILES]
+b__main.ads
+b__main.adb
+b__main.ali
+[RESULTING OPTIONS]
+-L/home/scada/Downloads/sample project database/obj/
+-L/home/scada/Downloads/sample project database/obj/
+-L/home/scada/opt/GNAT/2020/lib/ado_all.static/
+-L/home/scada/opt/GNAT/2020/lib/ado.static/
+-L/home/scada/opt/GNAT/2020/lib/utilada_sys.static/
+-L/home/scada/opt/GNAT/2020/lib/utilada_core.static/
+-L/home/scada/opt/GNAT/2020/lib/utilada_base.static/
+-L/home/scada/opt/GNAT/2020/lib/utilada_xml.static/
+-L/home/scada/opt/GNAT/2020/lib/xmlada/xmlada_input.static/
+-L/home/scada/opt/GNAT/2020/lib/xmlada/xmlada_unicode.static/
+-L/home/scada/opt/GNAT/2020/lib/xmlada/xmlada_sax.static/
+-L/home/scada/opt/GNAT/2020/lib/ado_mysql.static/
+-L/home/scada/opt/GNAT/2020/lib/ado_sqlite.static/
+-L/home/scada/opt/GNAT/2020/lib/gcc/x86_64-pc-linux-gnu/9.3.1/adalib/
+-static
+-static-libgcc
+-lsqlite3
+-lmariadb
+-ldl
+/home/scada/opt/GNAT/2020/lib/gcc/x86_64-pc-linux-gnu/9.3.1/adalib/libgnarl.a
+/home/scada/opt/GNAT/2020/lib/gcc/x86_64-pc-linux-gnu/9.3.1/adalib/libgnat.a
+-lrt
+-lpthread
+-ldl

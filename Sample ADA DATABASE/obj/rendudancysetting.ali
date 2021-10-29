@@ -1,0 +1,269 @@
+V "GNAT Lib v2020"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTION_PROPAGATION
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_NESTED_FINALIZATION
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+
+U rendudancysetting%b	rendudancysetting.adb	aefb6052 NE OO PK IU
+Z ada.exceptions%s	a-except.adb		a-except.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+Z system.concat_2%s	s-conca2.adb		s-conca2.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+
+U rendudancysetting%s	rendudancysetting.ads	4b3de319 EE OO PF PK IU
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W ado%s			ado.adb			ado.ali
+W ado.configs%s		ado-configs.adb		ado-configs.ali
+W ado.drivers%s		ado-drivers.adb		ado-drivers.ali
+W ado.sessions%s	ado-sessions.adb	ado-sessions.ali
+W ado.sessions.factory%s  ado-sessions-factory.adb  ado-sessions-factory.ali
+W ado.statements%s	ado-statements.adb	ado-statements.ali
+W dbconfiguration%s	dbconfiguration.adb	dbconfiguration.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+W util%s		util.ads		util.ali
+W util.properties%s	util-properties.adb	util-properties.ali
+
+D ada.ads		20200819050642 76789da1 ada%s
+D a-calend.ads		20200819050641 474d9720 ada.calendar%s
+D a-charac.ads		20200819050641 2d3ec45b ada.characters%s
+D a-chlat1.ads		20200819050641 66457d31 ada.characters.latin_1%s
+D a-contai.ads		20200819050641 61e5e089 ada.containers%s
+D a-cohata.ads		20200819050641 80a8c839 ada.containers.hash_tables%s
+D a-cohama.ads		20200819050641 8205bf40 ada.containers.hashed_maps%s
+D a-cohase.ads		20200819050641 5cc78687 ada.containers.hashed_sets%s
+D a-conhel.ads		20200819050641 20298884 ada.containers.helpers%s
+D a-cihase.ads		20200819050641 4f8a62e0 ada.containers.indefinite_hashed_sets%s
+D a-coinve.ads		20200819050641 b7300cfa ada.containers.indefinite_vectors%s
+D a-convec.ads		20200819050641 7e2b0fdf ada.containers.vectors%s
+D a-except.ads		20200819050642 a7106115 ada.exceptions%s
+D a-finali.ads		20200819050642 bf4f806b ada.finalization%s
+D a-ioexce.ads		20200819050642 e4a01f64 ada.io_exceptions%s
+D a-iteint.ads		20200819050642 7c7305e9 ada.iterator_interfaces%s
+D a-stream.ads		20200819050642 119b8fb3 ada.streams%s
+D a-string.ads		20200819050642 90ac6797 ada.strings%s
+D a-strmap.ads		20200819050642 e8bb714a ada.strings.maps%s
+D a-strunb.ads		20200819050642 1656705b ada.strings.unbounded%s
+D a-stunha.ads		20200819050642 115e053b ada.strings.unbounded.hash%s
+D a-stzmap.ads		20200819050643 e0c31b30 ada.strings.wide_wide_maps%s
+D a-stzunb.ads		20200819050643 404b19b5 ada.strings.wide_wide_unbounded%s
+D a-tags.ads		20200819050643 edddc8f0 ada.tags%s
+D a-textio.ads		20200819050643 aef4d56d ada.text_io%s
+D a-unccon.ads		20200819050643 0e9b276f ada.unchecked_conversion%s
+D a-uncdea.ads		20200819050643 eff36322 ada.unchecked_deallocation%s
+D ado.ads		20210731091534 1ec4b94f ado%s
+D ado-audits.ads	20210731091534 2a544c7e ado.audits%s
+D ado-caches.ads	20210731091534 3f821007 ado.caches%s
+D ado-configs.ads	20210731091534 1a13a13e ado.configs%s
+D ado-connections.ads	20210731091534 63a97484 ado.connections%s
+D ado-dialects.ads	20210731091534 eb00eeaf ado.dialects%s
+D ado-drivers.ads	20210731091534 4974b7d9 ado.drivers%s
+D ado-objects.ads	20210731091534 b8c8fb60 ado.objects%s
+D ado-objects-cache.ads	20210731091534 aef66a18 ado.objects.cache%s
+D ado-parameters.ads	20210731091534 ad5888fa ado.parameters%s
+D ado-queries.ads	20210731091534 88fffb80 ado.queries%s
+D ado-schemas.ads	20210731091534 b2b43658 ado.schemas%s
+D ado-schemas-entities.ads  20210731091534 3c0f0af5 ado.schemas.entities%s
+D ado-sequences.ads	20210731091534 1726cdc8 ado.sequences%s
+D ado-sessions.ads	20210731091534 20bb1cec ado.sessions%s
+D ado-sessions-factory.ads  20210731091534 ea9d5460 ado.sessions.factory%s
+D ado-sessions-sources.ads  20210731091534 d06216a9 ado.sessions.sources%s
+D ado-sql.ads		20210731091534 ba8ff082 ado.sql%s
+D ado-statements.ads	20210731091534 0fa6050f ado.statements%s
+D ado-utils.ads		20210731091534 ef23a2c0 ado.utils%s
+D dbconfiguration.ads	20211029105144 53282382 dbconfiguration%s
+D interfac.ads		20200819050644 5ab55268 interfaces%s
+D i-c.ads		20200819050644 c624fa43 interfaces.c%s
+D i-cstrin.ads		20200819050644 341d0ddf interfaces.c.strings%s
+D i-cstrea.ads		20200819050644 e53d8b8e interfaces.c_streams%s
+D rendudancysetting.ads	20211029104146 a7066820 rendudancysetting%s
+D rendudancysetting.adb	20211029131244 09fd0872 rendudancysetting%b
+D system.ads		20200819050647 4635ec04 system%s
+D s-atacco.ads		20200819050645 4c36d12f system.address_to_access_conversions%s
+D s-atocou.ads		20200819050645 b45c2d8d system.atomic_counters%s
+D s-conca2.ads		20200819050645 02a0d7d0 system.concat_2%s
+D s-crtl.ads		20200819050645 0ebbdb71 system.crtl%s
+D s-exctab.ads		20200819050645 54135002 system.exception_table%s
+D s-ficobl.ads		20200819050645 078245e4 system.file_control_block%s
+D s-finmas.ads		20200819050645 7811a767 system.finalization_masters%s
+D s-finroo.ads		20200819050645 4ff27390 system.finalization_root%s
+D s-linux.ads		20200819050640 ed0b8aee system.linux%s
+D s-memory.ads		20200819050645 597d6634 system.memory%s
+D s-multip.ads		20200819050645 38ac9f73 system.multiprocessors%s
+D s-oscons.ads		20200819100019 ffb5e830 system.os_constants%s
+D s-osinte.ads		20200819050640 675bad69 system.os_interface%s
+D s-parame.ads		20200819050646 4752c4cb system.parameters%s
+D s-pooglo.ads		20200819050646 ede33ef8 system.pool_global%s
+D s-secsta.ads		20200819050646 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20200819050646 a7318a92 system.soft_links%s
+D s-stache.ads		20200819050646 a37c21ec system.stack_checking%s
+D s-stausa.ads		20200819050646 017a0a05 system.stack_usage%s
+D s-stalib.ads		20200819050646 6b7a13f2 system.standard_library%s
+D s-stalib.adb		20200819050646 f2fe2716 system.standard_library%b
+D s-stoele.ads		20200819050646 2dc34a04 system.storage_elements%s
+D s-stopoo.ads		20200819050646 e9fa2dd8 system.storage_pools%s
+D s-stposu.ads		20200819050646 e251976f system.storage_pools.subpools%s
+D s-stratt.ads		20200819050646 9a2744e9 system.stream_attributes%s
+D s-string.ads		20200819050646 8fe54fb7 system.strings%s
+D s-ststop.ads		20200819050646 5fbf1b38 system.strings.stream_ops%s
+D s-tasinf.ads		20200819050641 2b3f8252 system.task_info%s
+D s-taspri.ads		20200819050641 f40ac08d system.task_primitives%s
+D s-taskin.ads		20200819050641 88fba9ad system.tasking%s
+D s-taprob.ads		20200819050641 acd6094d system.tasking.protected_objects%s
+D s-traent.ads		20200819050646 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20200819050646 5ecf7212 system.unsigned_types%s
+D s-wchcon.ads		20200819050646 1b7d22d2 system.wch_con%s
+D util.ads		20210725175807 36301479 util%s
+D util-beans.ads	20210725175807 362abe70 util.beans%s
+D util-beans-basic.ads	20210725175807 95c2d591 util.beans.basic%s
+D util-beans-objects.ads  20210725175807 aef7462e util.beans.objects%s
+D util-concurrent.ads	20210725175807 290630d1 util.concurrent%s
+D util-concurrent-counters.ads  20210725175807 51920a80 util.concurrent.counters%s
+D util-log.ads		20210725175807 0fb1ac89 util.log%s
+D util-log-appenders.ads  20210725175807 f13ba04e util.log.appenders%s
+D util-log-loggers.ads	20210725175807 5659ff08 util.log.loggers%s
+D util-nullables.ads	20210725175807 ffe1518b util.nullables%s
+D util-properties.ads	20210725175807 3ed4fee8 util.properties%s
+D util-refs.ads		20210725175807 e592e98d util.refs%s
+D util-strings.ads	20210725175807 99f66ec5 util.strings%s
+D util-strings-builders.ads  20210725175807 3dddb8be util.strings.builders%s
+D util-strings-vectors.ads  20210725175807 bd939877 util.strings.vectors%s
+D util-texts.ads	20210725175807 096d4581 util.texts%s
+D util-texts-builders.ads  20210725175807 f2e717ef util.texts.builders%s
+G a e
+G c s s s [s rendudancysetting 11 1 none]
+G c Z s b [read_oi_redundancy_state rendudancysetting 13 14 none]
+G r s session_factory [s rendudancysetting 11 1 none] [session_factoryIP ado__sessions__factory 98 9 none]
+G r l session_factory [s rendudancysetting 11 1 none] [session_factoryDI ado__sessions__factory 98 9 none]
+G r k session_factory [s rendudancysetting 11 1 none] [session_factoryDF ado__sessions__factory 98 9 none]
+G r s master_session [read_oi_redundancy_state rendudancysetting 13 14 none] [master_sessionIP ado__sessions 228 9 none]
+G r s query_statement [read_oi_redundancy_state rendudancysetting 13 14 none] [query_statementIP ado__statements 488 9 none]
+G r c none [read_oi_redundancy_state rendudancysetting 13 14 none] [initialize ado__drivers 78 14 none]
+G r c none [read_oi_redundancy_state rendudancysetting 13 14 none] [get_config ado__configs 56 13 none]
+G r c none [read_oi_redundancy_state rendudancysetting 13 14 none] [create ado__sessions__factory 77 14 none]
+G r c none [read_oi_redundancy_state rendudancysetting 13 14 none] [get_master_session ado__sessions__factory 68 13 none]
+G r e session [read_oi_redundancy_state rendudancysetting 13 14 none] [finalize ado__sessions 224 14 none]
+G r c none [read_oi_redundancy_state rendudancysetting 13 14 none] [create_statement ado__sessions 105 13 none]
+G r e query_statement [read_oi_redundancy_state rendudancysetting 13 14 none] [finalize ado__statements 497 14 none]
+G r c none [read_oi_redundancy_state rendudancysetting 13 14 none] [bind_param ado__parameters 159 14 none]
+G r c none [read_oi_redundancy_state rendudancysetting 13 14 none] [execute ado__statements 170 14 none]
+G r c none [read_oi_redundancy_state rendudancysetting 13 14 none] [has_elements ado__statements 176 13 none]
+G r c none [read_oi_redundancy_state rendudancysetting 13 14 none] [get_string ado__statements 266 13 none]
+G r c none [read_oi_redundancy_state rendudancysetting 13 14 none] [next ado__statements 179 14 none]
+G r c none [read_oi_redundancy_state rendudancysetting 13 14 none] [close ado__sessions 80 14 none]
+X 1 ada.ads
+16K9*Ada 20e8 53|6r6 9r6 54|25r10 26r10 27r10 34r10 34r71
+X 9 a-conhel.ads
+84R12 Reference_Control_Type<14|43R9>
+X 13 a-except.ads
+48K13*Exceptions 335e19 53|9w10 54|34r75
+88V13*Exception_Message{string} 54|34s86
+88r32 X{57R9} 54|34r105
+X 16 a-iteint.ads
+24h9 Forward_Iterator
+32h9 Reversible_Iterator<24R9[11|75]>
+X 25 a-textio.ads
+57K13*Text_IO 727e16 53|6w10 54|25r14 26r14 27r14 34r14
+508U14*Put_Line 54|25s22 26s22 27s22 34s22
+509a7 Item{string} 54|25r31 26r31 27r31 34r32
+X 28 ado.ads
+25K9*ADO 150e8 53|1w6 2r6 3r6 4r6 5r6 7r6 12r19 54|10r17 11r14 15r7 16r7
+. 16r67 17r18 21r7 24r13 25r39 26r39 27r39 28r10 33r16
+X 31 ado-configs.ads
+23K13*Configs 148e16 53|7w10 54|16r71
+56V13*Get_Config{string} 54|16s79
+56a25 Name{string} 54|16r90
+X 34 ado-drivers.ads
+74K13*Drivers 86e16 53|2w10 54|15r11
+78U14*Initialize 54|15s19
+78a26 Config{string} 54|15r31
+X 37 ado-parameters.ads
+100h9*Expander
+159U14*Bind_Param 54|20s12
+160a26 Name{string} 54|20r23
+161i26 Value{integer} 54|20r42
+X 42 ado-sessions.ads
+51K13*Sessions 237e17 53|3r10 4w10 12r23 54|10r21 16r11 17r22 33r20
+59X4*Connection_Error 54|33r29
+80U14*Close 54|31s15
+105V13*Create_Statement{46|165R9} 54|19s23
+106a31 Query{string} 54|19r40
+140R9*Master_Session<71R9> 231e14 54|10r30
+X 43 ado-sessions-factory.ads
+52K22*Factory 113e25 53|3w19 12r32 54|16r20 17r31
+61R9*Session_Factory 108e14 53|12r40
+68V13*Get_Master_Session{42|140R9} 54|17s39
+68r33 Factory{61R9} 54|17r58
+77U14*Create 54|16s28
+77r22 Factory{61R9} 54|16r36
+78a22 URI{string} 54|16r60
+X 46 ado-statements.ads
+83K13*Statements 565e19 53|5w10 54|11r18 21r11 24r17 25r43 26r43 27r43 28r14
+165R9*Query_Statement<103R9> 491e14 54|11r29
+170U14*Execute<157p14> 54|21s22
+170r23 Query{165R9} 54|21r30
+176V13*Has_Elements{boolean} 54|24s28
+176r27 Query{165R9} 54|24r41
+179U14*Next 54|28s25
+179r20 Query{165R9} 54|28r30
+266V13*Get_String{string} 54|25s54 26s54 27s54
+266r25 Query{165R9} 54|25r65 26r65 27r65
+267i25 Column{natural} 54|25r80 26r80 27r80
+X 48 dbconfiguration.ads
+9K9*dbConfiguration 15e20 53|10w6 54|15r41 16r97
+11a4*dbDriver{string} 54|15r57
+12a4*dbDriverConfig{string} 54|16r113
+X 53 rendudancysetting.ads
+11K9*RendudancySetting 15l5 15e22 54|2b14 38l5 38t22
+12r4*Sess_Factory{43|61R9} 54|16m47 17r69
+13U14*READ_OI_REDUNDANCY_STATE 13=40 54|8b14 36l8 36t32
+13b40 Result{boolean} 54|8b40 30m7 35m10
+X 54 rendudancysetting.adb
+10r7 Session{42|140R9} 17m7 19r15 31m7 31r7
+11r7 Stmt{46|165R9} 19m7 20m7 20r7 21m39 21r39 24r50 25r74 26r74 27r74 28m39
+. 28r39
+12i7 tes{integer} 20r49
+22l7 Qry 29l16 29e19
+33r12 E{13|57R9} 34r110
+X 55 system.ads
+67M9*Address
+X 65 s-memory.ads
+53V13*Alloc{55|67M9} 103i<c,__gnat_malloc>22
+68U14*Free 104i<c,__gnat_free>22
+76V13*Realloc{55|67M9} 105i<c,__gnat_realloc>22
+X 74 s-stausa.ads
+208U14*Initialize 209i<c,__gnat_stack_usage_initialize>22
+273U14*Output_Results 277i<c,__gnat_stack_usage_output_results>22
+X 76 s-stalib.adb
+93U14 Break_Start 94i<c,__gnat_break_start>22
+X 90 util.ads
+18K9*Util 53|8r6 90|28e9
+X 92 util-beans-basic.ads
+42h9*Readonly_Bean
+54h9*Bean<42R9>
+X 93 util-beans-objects.ads
+97h9*Object_Type
+X 100 util-properties.ads
+96K14*Properties 53|8w11 100|343e20
+256h12*Manager<92|54R9>
+279h12*Shared_Manager<256R12>
+301R15 Manager_Type<256R12>
+

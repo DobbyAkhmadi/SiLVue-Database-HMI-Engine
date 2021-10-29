@@ -1,0 +1,108 @@
+[2021-10-27 11:21:56] INFO  - ADO.Configs - : Initialize using property file database.properties
+[2021-10-27 11:21:56] INFO  - ADO.Connections - : Register driver mysql
+[2021-10-27 11:21:56] INFO  - ADO.Connections - : Register driver sqlite
+[2021-10-27 11:21:56] INFO  - ADO.Configs - : Set connection URI: mysql://localhost:3306/mysql?user=root
+[2021-10-27 11:21:56] INFO  - ADO.Queries.Loaders - : Initializing query search paths to 
+[2021-10-27 11:21:56] INFO  - ADO.Databases.Mysql - : Task main_task_000000000181DEA0 connecting to localhost:mysql
+[2021-10-27 11:21:56] INFO  - ADO.Connections - : Created connection to 'mysql://localhost:3306/mysql?user=root' -> 1       
+[2021-10-27 11:21:56] DEBUG - ADO.Statements.Mysql - : Execute SELECT o.id, o.name FROM entity_type AS o 
+[2021-10-27 11:21:56] ERROR - ADO.Statements.Mysql - : Query failed: 'SELECT o.id, o.name FROM entity_type AS o '
+[2021-10-27 11:21:56] ERROR - ADO.Statements.Mysql - :   with error: 'Table 'mysql.entity_type' doesn't exist'
+[2021-10-27 11:21:56] INFO  - ADO.Databases.Mysql - : Closing connection mysql/1       
+[2021-10-27 11:21:56] INFO  - ADO.Sequences - : Clearing the sequence factory
+[2021-10-27 11:24:34] INFO  - ADO.Configs - : Initialize using property file database.properties
+[2021-10-27 11:24:34] INFO  - ADO.Connections - : Register driver mysql
+[2021-10-27 11:24:34] INFO  - ADO.Connections - : Register driver sqlite
+[2021-10-27 11:24:34] INFO  - ADO.Configs - : Set connection URI: mysql://localhost:3306/mysql?user=root
+[2021-10-27 11:24:34] INFO  - ADO.Queries.Loaders - : Initializing query search paths to 
+[2021-10-27 11:24:34] INFO  - ADO.Databases.Mysql - : Task main_task_0000000001490EA0 connecting to localhost:mysql
+[2021-10-27 11:24:34] INFO  - ADO.Connections - : Created connection to 'mysql://localhost:3306/mysql?user=root' -> 1       
+[2021-10-27 11:24:34] DEBUG - ADO.Statements.Mysql - : Execute SELECT o.id, o.name FROM entity_type AS o 
+[2021-10-27 11:24:34] ERROR - ADO.Statements.Mysql - : Query failed: 'SELECT o.id, o.name FROM entity_type AS o '
+[2021-10-27 11:24:34] ERROR - ADO.Statements.Mysql - :   with error: 'Table 'mysql.entity_type' doesn't exist'
+[2021-10-27 11:24:34] INFO  - ADO.Databases.Mysql - : Closing connection mysql/1       
+[2021-10-27 11:24:34] INFO  - ADO.Sequences - : Clearing the sequence factory
+[2021-10-27 11:29:22] INFO  - ADO.Configs - : Initialize using property file database.properties
+[2021-10-27 11:29:22] INFO  - ADO.Connections - : Register driver mysql
+[2021-10-27 11:29:22] INFO  - ADO.Connections - : Register driver sqlite
+[2021-10-27 11:29:22] INFO  - ADO.Configs - : Set connection URI: mysql://localhost:3306/db_oi?user=root
+[2021-10-27 11:29:22] INFO  - ADO.Queries.Loaders - : Initializing query search paths to 
+[2021-10-27 11:29:22] INFO  - ADO.Databases.Mysql - : Task main_task_00000000025D5EA0 connecting to localhost:db_oi
+[2021-10-27 11:29:22] INFO  - ADO.Connections - : Created connection to 'mysql://localhost:3306/db_oi?user=root' -> 1       
+[2021-10-27 11:29:22] DEBUG - ADO.Statements.Mysql - : Execute SELECT o.id, o.name FROM entity_type AS o 
+[2021-10-27 11:29:22] ERROR - ADO.Statements.Mysql - : Query failed: 'SELECT o.id, o.name FROM entity_type AS o '
+[2021-10-27 11:29:22] ERROR - ADO.Statements.Mysql - :   with error: 'Table 'db_oi.entity_type' doesn't exist'
+[2021-10-27 11:29:22] INFO  - ADO.Databases.Mysql - : Closing connection db_oi/1       
+[2021-10-27 11:29:22] INFO  - ADO.Sequences - : Clearing the sequence factory
+[2021-10-27 11:30:48] INFO  - ADO.Configs - : Initialize using property file database.properties
+[2021-10-27 11:30:48] INFO  - ADO.Connections - : Register driver mysql
+[2021-10-27 11:30:48] INFO  - ADO.Connections - : Register driver sqlite
+[2021-10-27 11:30:48] INFO  - ADO.Configs - : Set connection URI: mysql://localhost:3306/db_oi?user=root
+[2021-10-27 11:30:48] INFO  - ADO.Queries.Loaders - : Initializing query search paths to 
+[2021-10-27 11:30:48] INFO  - ADO.Databases.Mysql - : Task main_task_0000000000A83EA0 connecting to localhost:db_oi
+[2021-10-27 11:30:48] INFO  - ADO.Connections - : Created connection to 'mysql://localhost:3306/db_oi?user=root' -> 1       
+[2021-10-27 11:30:48] DEBUG - ADO.Statements.Mysql - : Execute SELECT o.id, o.name FROM entity_type AS o 
+[2021-10-27 11:30:48] ERROR - ADO.Statements.Mysql - : Query failed: 'SELECT o.id, o.name FROM entity_type AS o '
+[2021-10-27 11:30:48] ERROR - ADO.Statements.Mysql - :   with error: 'Table 'db_oi.entity_type' doesn't exist'
+[2021-10-27 11:30:48] INFO  - ADO.Databases.Mysql - : Closing connection db_oi/1       
+[2021-10-27 11:30:48] INFO  - ADO.Sequences - : Clearing the sequence factory
+[2021-10-27 11:31:01] INFO  - ADO.Configs - : Initialize using property file database.properties
+[2021-10-27 11:31:01] INFO  - ADO.Connections - : Register driver mysql
+[2021-10-27 11:31:01] INFO  - ADO.Connections - : Register driver sqlite
+[2021-10-27 11:31:01] INFO  - ADO.Configs - : Set connection URI: mysql://localhost:3306/db_oi?user=root
+[2021-10-27 11:31:01] INFO  - ADO.Queries.Loaders - : Initializing query search paths to 
+[2021-10-27 11:31:01] INFO  - ADO.Databases.Mysql - : Task main_task_0000000001B59EA0 connecting to localhost:db_oi
+[2021-10-27 11:31:01] INFO  - ADO.Connections - : Created connection to 'mysql://localhost:3306/db_oi?user=root' -> 1       
+[2021-10-27 11:31:01] DEBUG - ADO.Statements.Mysql - : Execute SELECT o.id, o.name FROM entity_type AS o 
+[2021-10-27 11:31:01] ERROR - ADO.Statements.Mysql - : Query failed: 'SELECT o.id, o.name FROM entity_type AS o '
+[2021-10-27 11:31:01] ERROR - ADO.Statements.Mysql - :   with error: 'Table 'db_oi.entity_type' doesn't exist'
+[2021-10-27 11:31:01] INFO  - ADO.Databases.Mysql - : Closing connection db_oi/1       
+[2021-10-27 11:31:01] INFO  - ADO.Sequences - : Clearing the sequence factory
+[2021-10-27 11:35:23] INFO  - ADO.Configs - : Initialize using property file database.properties
+[2021-10-27 11:35:23] INFO  - ADO.Connections - : Register driver mysql
+[2021-10-27 11:35:23] INFO  - ADO.Connections - : Register driver sqlite
+[2021-10-27 11:35:23] INFO  - ADO.Configs - : Set connection URI: mysql://localhost:3306/db_oi?user=root
+[2021-10-27 11:35:23] INFO  - ADO.Queries.Loaders - : Initializing query search paths to 
+[2021-10-27 11:35:23] INFO  - ADO.Databases.Mysql - : Task main_task_0000000001245EA0 connecting to localhost:db_oi
+[2021-10-27 11:35:23] INFO  - ADO.Connections - : Created connection to 'mysql://localhost:3306/db_oi?user=root' -> 1       
+[2021-10-27 11:35:23] DEBUG - ADO.Statements.Mysql - : Execute SELECT o.id, o.name FROM entity_type AS o 
+[2021-10-27 11:35:23] ERROR - ADO.Statements.Mysql - : Query failed: 'SELECT o.id, o.name FROM entity_type AS o '
+[2021-10-27 11:35:23] ERROR - ADO.Statements.Mysql - :   with error: 'Table 'db_oi.entity_type' doesn't exist'
+[2021-10-27 11:35:23] INFO  - ADO.Databases.Mysql - : Closing connection db_oi/1       
+[2021-10-27 11:35:23] INFO  - ADO.Sequences - : Clearing the sequence factory
+[2021-10-27 11:39:18] INFO  - ADO.Configs - : Initialize using property file database.properties
+[2021-10-27 11:39:18] INFO  - ADO.Connections - : Register driver mysql
+[2021-10-27 11:39:18] INFO  - ADO.Connections - : Register driver sqlite
+[2021-10-27 11:39:18] INFO  - ADO.Configs - : Set connection URI: mysql://localhost:3306/db_oi?user=root
+[2021-10-27 11:39:18] INFO  - ADO.Queries.Loaders - : Initializing query search paths to 
+[2021-10-27 11:39:18] INFO  - ADO.Databases.Mysql - : Task main_task_00000000028AFEA0 connecting to localhost:db_oi
+[2021-10-27 11:39:18] INFO  - ADO.Connections - : Created connection to 'mysql://localhost:3306/db_oi?user=root' -> 1       
+[2021-10-27 11:39:18] DEBUG - ADO.Statements.Mysql - : Execute SELECT o.id, o.name FROM entity_type AS o 
+[2021-10-27 11:39:18] ERROR - ADO.Statements.Mysql - : Query failed: 'SELECT o.id, o.name FROM entity_type AS o '
+[2021-10-27 11:39:18] ERROR - ADO.Statements.Mysql - :   with error: 'Table 'db_oi.entity_type' doesn't exist'
+[2021-10-27 11:39:18] INFO  - ADO.Databases.Mysql - : Closing connection db_oi/1       
+[2021-10-27 11:39:18] INFO  - ADO.Sequences - : Clearing the sequence factory
+[2021-10-27 11:39:36] INFO  - ADO.Configs - : Initialize using property file database.properties
+[2021-10-27 11:39:36] INFO  - ADO.Connections - : Register driver mysql
+[2021-10-27 11:39:36] INFO  - ADO.Connections - : Register driver sqlite
+[2021-10-27 11:39:36] INFO  - ADO.Configs - : Set connection URI: mysql://localhost:3306/db_oi?user=root
+[2021-10-27 11:39:36] INFO  - ADO.Queries.Loaders - : Initializing query search paths to 
+[2021-10-27 11:39:36] INFO  - ADO.Databases.Mysql - : Task main_task_0000000000CB2EA0 connecting to localhost:db_oi
+[2021-10-27 11:39:36] INFO  - ADO.Connections - : Created connection to 'mysql://localhost:3306/db_oi?user=root' -> 1       
+[2021-10-27 11:39:36] DEBUG - ADO.Statements.Mysql - : Execute SELECT o.id, o.name FROM entity_type AS o 
+[2021-10-27 11:39:36] ERROR - ADO.Statements.Mysql - : Query failed: 'SELECT o.id, o.name FROM entity_type AS o '
+[2021-10-27 11:39:36] ERROR - ADO.Statements.Mysql - :   with error: 'Table 'db_oi.entity_type' doesn't exist'
+[2021-10-27 11:39:36] INFO  - ADO.Databases.Mysql - : Closing connection db_oi/1       
+[2021-10-27 11:39:36] INFO  - ADO.Sequences - : Clearing the sequence factory
+[2021-10-27 11:39:40] INFO  - ADO.Configs - : Initialize using property file database.properties
+[2021-10-27 11:39:40] INFO  - ADO.Connections - : Register driver mysql
+[2021-10-27 11:39:40] INFO  - ADO.Connections - : Register driver sqlite
+[2021-10-27 11:39:40] INFO  - ADO.Configs - : Set connection URI: mysql://localhost:3306/db_oi?user=root
+[2021-10-27 11:39:40] INFO  - ADO.Queries.Loaders - : Initializing query search paths to 
+[2021-10-27 11:39:40] INFO  - ADO.Databases.Mysql - : Task main_task_0000000001E1FEA0 connecting to localhost:db_oi
+[2021-10-27 11:39:40] INFO  - ADO.Connections - : Created connection to 'mysql://localhost:3306/db_oi?user=root' -> 1       
+[2021-10-27 11:39:40] DEBUG - ADO.Statements.Mysql - : Execute SELECT o.id, o.name FROM entity_type AS o 
+[2021-10-27 11:39:40] ERROR - ADO.Statements.Mysql - : Query failed: 'SELECT o.id, o.name FROM entity_type AS o '
+[2021-10-27 11:39:40] ERROR - ADO.Statements.Mysql - :   with error: 'Table 'db_oi.entity_type' doesn't exist'
+[2021-10-27 11:39:40] INFO  - ADO.Databases.Mysql - : Closing connection db_oi/1       
+[2021-10-27 11:39:40] INFO  - ADO.Sequences - : Clearing the sequence factory
